@@ -25,8 +25,8 @@ img {
   height: auto;
 }
 .container {
-  width: 1158px;
   margin: 0 auto;
+  max-width: 1158px;
   padding: 0 15px;
 }
 
@@ -310,13 +310,15 @@ body {
 
 /* Sectiunea 4 */
 
-.portofolio-list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
 }
+
 .portfolio-list .item {
   flex-basis: calc(100% - 48px) / 3;
+
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -339,7 +341,7 @@ body {
   height: 100%;
   top: 0;
   transform: translateY(100%);
-  color: #f4f4fd;
+  color: #fff;
   background-color: #4d5ae5;
   letter-spacing: inherit;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -353,26 +355,46 @@ body {
 .portfolio-list .card-text {
   padding-left: 16px;
   padding-right: 16px;
-  border: 1px solid #ffffff;
-  border-top: none;
-}
-
-.portfolio-list .card-text {
-  padding-left: 16px;
-  padding-right: 16px;
   border: 1px solid var(--accent);
   border-top: none;
 }
 
+.portfolio-list .link {
+  color: currentColor;
+}
 
 /* footer  */
 
 .footer {
-  background-color: #2e2f42;
-}
-.footer-container {
-  display: inline-block;
   padding: 100px 0;
+  background-color: #2E2F42;
+  color:#F4F4FD;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer .info {
+  flex-basis: 264px;
+  margin-right: 120px;
+}
+
+.footer .contacts {
+  margin-right: 80px;
+}
+
+.footer .contacts-title {
+  font-weight: 500;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.footer .social-list {
+  gap: 16px;
 }
 
 .logo {
