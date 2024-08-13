@@ -212,19 +212,7 @@ body {
   background-color: #404bbf;
 }
 /* first section  */
-.hero-section {
-  background-color: var(--primary-color);
-}
 
-.hero-title {
-  margin: 0 auto;
-  max-width: 496px;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 1.12px;
-  color: #ffffff;
-}
 .hero {
   padding: 188px 0;
   max-width: 1440px;
@@ -241,7 +229,15 @@ body {
   color: var(--white);
   text-align: center;
 }
-
+.hero-title {
+  margin: 0 auto;
+  max-width: 496px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: #ffffff;
+}
 /* second section  */
 .features {
 }
@@ -483,9 +479,7 @@ body {
   gap: 16px;
 }
 
-.
-
-.footer-logo {
+. .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
