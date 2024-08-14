@@ -327,14 +327,14 @@ body {
 
 .social-list {
   display: flex;
-  justify-content: center;
   gap: 24px;
-}
-
-.team-list .social-list {
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: flex-end;
   margin-top: 8px;
 }
 
+.social-list .item,
 .social-list .link {
   display: flex;
   justify-content: center;
