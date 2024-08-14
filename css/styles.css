@@ -463,7 +463,16 @@ body {
   max-width: 264px;
   color: #f4f4fd;
 }
-.footer .social-list {
+
+.footer-social-list {
+  display: flex;
+  gap: 24px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: 8px;
+}
+.footer .footer-social-list {
   gap: 16px;
 }
 
