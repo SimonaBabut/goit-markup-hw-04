@@ -463,6 +463,9 @@ body {
   max-width: 264px;
   color: #f4f4fd;
 }
+.footer .social-links {
+  gap: 16px;
+}
 
 .social-list .soc-link {
   display: flex;
